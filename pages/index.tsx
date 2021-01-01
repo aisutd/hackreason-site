@@ -1,7 +1,25 @@
 import { FC } from 'react'
+import Head from 'next/head'
+import Hero from '../components/hero'
+import FAQCard from '../components/faq-card'
+import FAQ from '../components/faq'
+import Schedule from '../components/schedule'
+import Footer from '../components/footer'
 
 const App: FC = () => {
-  return <div>HackReason Site</div>
+  return (
+    <div>
+      <Head>
+        <title>HackReason</title>
+      </Head>
+      <Hero />
+      <main className='max-w-7xl px-4 mx-auto my-0'>
+        <Schedule />
+        <FAQ />
+      </main>
+      <Footer />
+    </div>
+  )
 }
 
 export default App
