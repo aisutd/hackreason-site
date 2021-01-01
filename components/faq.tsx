@@ -27,9 +27,13 @@ $600, second place will win $400, and third place will win $200.'
       />
       <FAQCard
         question='Has HackReason been conducted before?'
-        answer='The first Automated Reasoning hackathon at UTD was organized in 2016 in
-	  a similar manner and sponsored by Prof. Gopal Gupta. You can see the
-	  projects at: https://hackai16.devpost.com/project-gallery'
+        answer={
+          <p>
+            The first Automated Reasoning hackathon at UTD was organized in 2016 in a similar manner
+            and sponsored by Prof. Gopal Gupta. You can see the projects{' '}
+            <a href='https://hackai16.devpost.com/project-gallery'>here</a>!
+          </p>
+        }
       />
       <FAQCard
         question='What is "common sense reasoning"?'

@@ -1,7 +1,6 @@
 import { FC } from 'react'
 import Head from 'next/head'
 import Hero from '../components/hero'
-import FAQCard from '../components/faq-card'
 import FAQ from '../components/faq'
 import Schedule from '../components/schedule'
 import Footer from '../components/footer'
