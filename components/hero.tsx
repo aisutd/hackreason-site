@@ -12,7 +12,7 @@ const Hero: FC = () => {
           alt=''
           className='mx-auto my-0 max-w-1/3 mb-4'
         />
-        <div className='mt-0'>
+        <div className='my-8'>
           <div className='text-2xl font-bold'>January 14-15, 2021, 12PM-12PM CST</div>
           <div className='text-xl max-w-3xl mx-auto'>
             Join us on World Logic Day for a 24-hour hackathon that challenges participants to
