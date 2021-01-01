@@ -19,7 +19,7 @@ const FAQCard: FC<FAQCardProps> = (props: FAQCardProps) => {
           <span className='font-medium text-xl select-none cursor-pointer' onClick={toggle}>
             {props.question}
           </span>
-          {expanded && <div className='mt-4 text-lg text-white text-justify'>{props.answer}</div>}
+          {expanded && <div className='mt-4 text-lg text-white text-left'>{props.answer}</div>}
         </div>
       </div>
     </div>
