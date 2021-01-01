@@ -6,7 +6,7 @@ const Hero: FC = () => {
     <div
       className='w-full h-screen flex items-center justify-center bg-cover bg-opacity-30'
       style={{ background: 'url("/assets/grid-bg-2.jpg")', backgroundSize: 'cover' }}>
-      <div className='bg-graay-600 text-center' style={{ animation: 'slidein 1s ease-out' }}>
+      <div className='text-center px-6' style={{ animation: 'slidein 1s ease-out' }}>
         <img
           src='/assets/hr-lettering-logo-alt.svg'
           alt=''
