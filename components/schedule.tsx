@@ -1,4 +1,4 @@
-import { FC } from 'react'
+import { FC, ReactNode } from 'react'
 import Link from 'next/link'
 import classNames from 'classnames'
 
@@ -6,7 +6,7 @@ interface ScheduleCardProps {
   title: string
   datetime: string
   presenter: string
-  description?: string
+  description?: string | ReactNode
   joinLink?: string
   happening?: boolean
 }
@@ -60,12 +60,14 @@ const Schedule: FC = () => {
         title='Intro to Logic Programming & Prolog'
         datetime='January 6, 2021 @ 12:00-2:30 PM CST'
         presenter='Dr. Gopal Gupta'
+        joinLink='//tinyurl.com/hackreason-prep1'
       />
       <ScheduleCard
         title='Intro to Answer Set Programming, s(CASP), & Automated Commonsense
 		Reasoning'
         datetime='January 8, 2021 @ 12:00-2:30 PM CST'
         presenter='Dr. Gopal Gupta'
+        joinLink='//tinyurl.com/hackreason-prep2'
       />
       <div className='py-2 font-semibold text-xl'>Opening Ceremony</div>
       <ScheduleCard
@@ -78,15 +80,17 @@ const Schedule: FC = () => {
       <div className='py-2 font-semibold text-xl'>Workshops</div>
       <ScheduleCard
         title='Answer Set Programming for the Amazon Alexa Socialbot Challenge 4'
-        datetime='January 14, 2021 @ 4:00 PM CST'
-        presenter='Kinjal Basu'
-        description='Learn more about ASP and hear from the student lead for the UTD team.'
+        datetime='January 14, 2021 @ 4:00-4:30 PM CST'
+        presenter='Kinjal Basu, UT Dallas PhD Student'
+        description="The Amazon Alexa Socialbot Challenge is a competition dedicated to advancing the field of conversational AI, for which UTD is a top 9 contender. Hear about the competition and the team's work from the student lead!"
+        joinLink='//tinyurl.com/answer-set-programming'
       />
       <ScheduleCard
         title='Explainable AI: An Introduction'
-        datetime='January 14, 2021 @ 8:00 PM CST'
+        datetime='January 14, 2021 @ 8:00-8:30 PM CST'
         presenter='Dr. Farhad Shakerin, Microsoft'
-        description='Dr. Shakerin is a UTD alum (PhD, Spring 2020).'
+        description={`Dr. Shakerin is a UTD alum (PhD, Spring 2020) and will present an introductory tech talk on the field of artificial intelligence! This is a great workshop to learn more about the topic in general, and hear about Dr. Shakerin's background.`}
+        joinLink='//tinyurl.com/hackreason-explainable-ai'
       />
     </div>
   )
