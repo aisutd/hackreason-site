@@ -16,7 +16,7 @@ a {
 @keyframes slidein {
   from {
     opacity: 0;
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
 
   to {

@@ -14,7 +14,7 @@ const Hero: FC = () => {
         />
         <div className='my-8'>
           <div className='text-2xl font-bold'>January 14-15, 2021, 12PM-12PM CST</div>
-          <div className='text-xl max-w-3xl mx-auto'>
+          <div className='mt-1 text-xl max-w-3xl mx-auto px-12'>
             Join us on World Logic Day for a 24-hour hackathon that challenges participants to
             develop applications that rely on simulating human-style common sense reasoning using
             the s(CASP) system!
