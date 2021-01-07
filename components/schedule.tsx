@@ -54,7 +54,10 @@ const Schedule: FC = () => {
   return (
     <div className='mt-4 mx-auto max-w-4xl mb-32'>
       <h1 className='text-4xl font-bold text-center mb-2'>Schedule</h1>
-      <h1 className='text-lg italic font-light text-center mb-8'>Click any workshop to join it.</h1>
+      <h1 className='text-lg italic font-light text-center mb-8'>
+        Click any workshop to join it. Workshop code and recordings are available{' '}
+        <Link href='/code'>here</Link>.
+      </h1>
       <div className='py-2 font-semibold text-xl'>Preparatory Workshops</div>
       <ScheduleCard
         title='Intro to Logic Programming & Prolog'
