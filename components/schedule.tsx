@@ -75,7 +75,7 @@ const Schedule: FC = () => {
       <div className='py-2 font-semibold text-xl'>Opening Ceremony</div>
       <ScheduleCard
         title='HackReason Opening Ceremony'
-        datetime='January 14, 2021 @ 12:00-2:30 PM CST'
+        datetime='January 14, 2021 @ 10:30 AM-12:00 PM CST'
         presenter='Dr. Robert Kowalski'
         description='Kick off HackReason by hearing from Dr. Kowalski, Professor Emeritus and Distinguished Research Fellow at Imperial College London (and the creator of Prolog, a programming language used for AI).'
         joinLink='//bit.ly/utd-logical-english'
