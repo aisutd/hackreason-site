@@ -4,6 +4,7 @@ import Hero from '../components/hero'
 import FAQ from '../components/faq'
 import Schedule from '../components/schedule'
 import Footer from '../components/footer'
+import Winners from '../components/winners'
 
 const App: FC = () => {
   return (
