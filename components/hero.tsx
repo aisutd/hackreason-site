@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { FC } from 'react'
 
 const Hero: FC = () => {
@@ -14,7 +15,6 @@ const Hero: FC = () => {
         <div className='my-8'>
           <div className='text-2xl font-bold'>January 14-15, 2022, 10:30AM-12PM CST</div>
           <div className='mt-1 text-xl max-w-3xl mx-auto px-12'>
-
             HackReason is back! Join us on World Logic Day for a 24-hour hackathon that challenges
             participants to develop applications that rely on simulating human-style common sense
             reasoning using the s(CASP) system!
@@ -24,7 +24,6 @@ const Hero: FC = () => {
               Registration Opening Soon
             </button>
           </Link>
-          </div>
         </div>
       </div>
     </div>
