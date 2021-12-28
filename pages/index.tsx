@@ -13,7 +13,7 @@ const App: FC = () => {
       </Head>
       <Hero />
       <main className='max-w-7xl px-4 mx-auto my-0'>
-        <Schedule />
+        {/* <Schedule /> */}
         <FAQ />
       </main>
       <Footer />
