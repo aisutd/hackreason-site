@@ -20,8 +20,8 @@ const Hero: FC = () => {
             reasoning using the s(CASP) system!
           </div>
           <Link href='/apply'>
-            <button className='button mt-6 rounded-full px-8 py-2 text-lg bg-gray-700 hover:bg-gray-700 text-white mx-auto transition-colors'>
-              Registration Opening Soon
+            <button className='button mt-6 rounded-full px-8 py-2 text-lg bg-darkcapri hover:bg-blue-600 text-white mx-auto transition-colors'>
+              Apply Now
             </button>
           </Link>
         </div>
